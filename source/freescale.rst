@@ -15,32 +15,32 @@ The track
 
 The track is made from 1/16 inch ABS Plastic with a background colour of white matte. The track is bounded with matte black stripes. Models of the track are illustrated in Figures 5-6.
 
-.. figure:: Pictures/02-QtrTurn_EdgeLine.JPG.jpg
+.. figure:: Pictures/02-QtrTurn_EdgeLine.jpg
    :scale: 50 %
 
    Qtr. Turn
 
-.. figure:: Pictures/02-Straight_EdgeLine.JPG.jpg
+.. figure:: Pictures/02-Straight_EdgeLine.jpg
    :scale: 50 %
 
    Straight track segment
 
-.. figure:: Pictures/02-Intersection_EdgeLine.JPG.jpg
+.. figure:: Pictures/02-Intersection_EdgeLine.jpg
    :scale: 50 %
 
    Intersection
 
-.. figure:: Pictures/02-SCurve_EdgeLine.JPG.jpg
+.. figure:: Pictures/02-SCurve_EdgeLine.jpg
    :scale: 50 %
 
    Chicanes
 
-.. figure:: Pictures/02-StartStop_EdgeLine.JPG.jpg
+.. figure:: Pictures/02-StartStop_EdgeLine.jpg
    :scale: 50 %
 
    Finish / Start trach segment
 
-.. figure:: Pictures/02-Hill_EdgeLine.JPG.jpg
+.. figure:: Pictures/02-Hill_EdgeLine.jpg
    :scale: 50 %
 
    Hill
