@@ -6,17 +6,17 @@ Simulink, part of the Matlab suite, is a powerful tool used for multiple tasks, 
 In order to familiarize ourselves with the environment, we will look at some basic examples of what Simulink can do.
 
 A simple example
----------------
+----------------
 
 Writing a program in **Simulink** means composing it from pre-constructed blocks provided in the *Simulink Library Browser*. In order to launch the browser, at the Matlab command line, execute:
 
   ``>> simulink``
 
-.. image:: Pictures/01-SimulinkLib.png
+.. image:: Pictures/05a-SimulinkLib.png
 
 You can now see a window similar to the above image, which lists, by category, different blocks you could use in your program. To start off with a simple example, click the **New Model** icon.
 
-.. image:: Pictures/01-SimulinkLibNewModel.png
+.. image:: Pictures/05a-SimulinkLibNewModel.png
 
 We will start off by drawing the graph of the sine function. First, find the sine block in the library via one of the two following methods:
 
@@ -25,19 +25,19 @@ We will start off by drawing the graph of the sine function. First, find the sin
 
 After finding the correct block, drag it to our model. Similarly, find the *Scope* block (located in the **Sinks** subcategory) and add it to our model>
 
-.. image:: Pictures/01-SimulinkModelBlocks.png
+.. image:: Pictures/05a-SimulinkModelBlocks.png
 
 To finish our model, simply connect the two blocks, by clicking on the output of the *Sine Wave* block (the bold arrow on its right) and dragging the cursor to the input of the *Scope* block (the corresponding arrow on its left).
 
-.. image:: Pictures/01-SimulinkModelConnected.png
+.. image:: Pictures/05a-SimulinkModelConnected.png
 
 To see the result of our simulation (in this case, simply how a sine function looks like), first run it, either via the **Play** button at the top or by using the **Ctrl-T** key combination.
 
-.. image:: Pictures/01-SimulinkModelPlay.png
+.. image:: Pictures/05a-SimulinkModelPlay.png
 
 Finally, to see the actual result, double-click the *Scope* block and you will see the graph for a sine function.
 
-.. image:: Pictures/01-SimulinkModelScope.png
+.. image:: Pictures/05a-SimulinkModelScope.png
 
 Going further with Simulink
 ---------------------------
