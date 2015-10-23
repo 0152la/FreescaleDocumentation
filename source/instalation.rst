@@ -57,7 +57,7 @@ Matlab and Simulink Installation
 20. After the installation is done, make sure that you have *Activate Matlab* check box checked and click next and just follow the instructions.
 21. Open Matlab to verify that everything is working properly (see Figure 1) and you are done! Don’t forget to delete the downloaded files and extracted folders to keep everything clean!
 
-.. figure:: Pictures/04-InstallationDone.png
+.. figure:: Pictures/04-1_installation_done.png
   :figclass: align-center
 
   Figure 1
@@ -67,8 +67,49 @@ Check that Simulink is installed if you already have Matlab
 
 In case that you have Matlab already installed in your system (e.g. you systems is managed by an administrator from your university/school/organization), you can check if simulink is installed by using the following instructions.
 
-1. Open Matlab
+1. Open Matlab.
 2. On the **Command Window** type: ``ver``
 
   - If you see a line writing Simulink, then it is installed.
   - If you don’t see any Simulink line, then download the Matlab installer and follow the previous instructions :ref:`MatSimInst`.
+
+Install Matlab package for Freescale FRDM-KL25Z board
+-----------------------------------------------------
+
+1. Open Matlab.
+2. Select **Add-Ons** on the menu bar and click **Get Hardware Support Packages**. See Figure 2.
+
+.. figure:: Pictures/04-2_get_hardware_support_packages.png
+  :figclass: align-center
+
+  Figure 2
+
+3. The **Support Package Installer** wizard appears.
+4. From the **Select an action** list, select **Install from Internet** and click **Next**.
+5. In the **Support Package Installer** wizard, select **Freescale Kinetics Microcontrollers** and then the **FRDM-KL25Z** board.
+
+**HINT:** *If you see the package gray and you can not install it, that means that you didn't install Matlab Embedded Coder which can be found in the initial installation.*
+
+.. figure:: Pictures/04-3_support_package_installer.png
+  :figclass: align-center
+
+  Figure 3
+
+
+6. At some point you are going to be asked to install **CMSIS Specification** software. Click on **download**, then create an **ARM** account and download the software.
+
+.. figure:: Pictures/04-4_install_CMSIS.png
+  :figclass: align-center
+
+  Figure 4
+
+.. figure:: Pictures/04-5_download_CMSIS.png
+  :figclass: align-center
+
+  Figure 5
+
+7. Then use an extract software (*like 7-zip*) to uncompress the **.tgz**. The process goes like this: **.tgz** -> **.tar** -> **.pack** -> then you will have 2 folders and 1 **.pdsc** file.
+8. Click **Next** on the **CMSIS Specification** window and then you will be asked to **Specify the CMSIS installation folder**. Browse the folder that **contains** the **.pdsc** file.
+9. For the remaining pages of the **Support Package Installer** wizard, just follow the instructions.
+
+If you find any issues you can always refer to the official documentation `here <http://uk.mathworks.com/help/supportpkg/freedomboard/ug/install-support-for-freescale-frdm-kl25z-board.html>`__.
