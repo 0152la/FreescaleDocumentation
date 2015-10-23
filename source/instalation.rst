@@ -51,7 +51,7 @@ Matlab and Simulink Installation
 14. Login with your credentials.
 15. Select your license from the list.
 16. Click next to install on the default folder.
-17. On the *Select products to install* list, **select only Matlab and Simulink**.
+17. On the *Select products to install* list, **select everything**.
 18. Click Next for all the next questions.
 19. Now wait until everything is installed.
 20. After the installation is done, make sure that you have *Activate Matlab* check box checked and click next and just follow the instructions.
