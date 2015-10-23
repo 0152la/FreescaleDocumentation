@@ -98,6 +98,8 @@ Install Matlab package for Freescale FRDM-KL25Z board
 
 6. At some point you are going to be asked to install **CMSIS Specification** software. Click on **download**, then create an **ARM** account and download the software.
 
+**IMPORTANT:** Use the version **4.3.0!**
+
 .. figure:: Pictures/04-4_install_CMSIS.png
   :figclass: align-center
 
@@ -108,8 +110,8 @@ Install Matlab package for Freescale FRDM-KL25Z board
 
   Figure 5
 
-7. Then use an extract software (*like 7-zip*) to uncompress the **.tgz**. The process goes like this: **.tgz** -> **.tar** -> **.pack** -> then you will have 2 folders and 1 **.pdsc** file.
-8. Click **Next** on the **CMSIS Specification** window and then you will be asked to **Specify the CMSIS installation folder**. Browse the folder that **contains** the **.pdsc** file.
+7. Extract the software.
+8. Click **Next** on the **CMSIS Specification** window and then you will be asked to **Specify the CMSIS installation folder**. Browse to the just extracted folder.
 9. For the remaining pages of the **Support Package Installer** wizard, just follow the instructions.
 
 If you find any issues you can always refer to the official documentation `here <http://uk.mathworks.com/help/supportpkg/freedomboard/ug/install-support-for-freescale-frdm-kl25z-board.html>`__.
