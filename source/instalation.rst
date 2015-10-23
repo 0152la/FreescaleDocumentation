@@ -114,4 +114,14 @@ Install Matlab package for Freescale FRDM-KL25Z board
 8. Click **Next** on the **CMSIS Specification** window and then you will be asked to **Specify the CMSIS installation folder**. Browse to the just extracted folder.
 9. For the remaining pages of the **Support Package Installer** wizard, just follow the instructions.
 
-If you find any issues you can always refer to the official documentation `here <http://uk.mathworks.com/help/supportpkg/freedomboard/ug/install-support-for-freescale-frdm-kl25z-board.html>`__.
+If you find any issues on this step, you can always refer to the official documentation `here <http://uk.mathworks.com/help/supportpkg/freedomboard/ug/install-support-for-freescale-frdm-kl25z-board.html>`__.
+
+Install drivers for Freescale FRDM-KL25Z board
+----------------------------------------------
+
+Before you use the Freescale FRDM-KL25Z board with the host computer, you need to install the OpenSDA USB drivers. This is the last step you need to do.
+
+1. Download and Install the P&E OpenSDA USB Drivers from the `site <http://www.pemicro.com/opensda/>`__. Select **Windows USB Drivers**.
+2. You should be ready now!
+
+If you find any issues on this step you, can always refer to the official documentation `here <http://uk.mathworks.com/help/supportpkg/freedomboard/ug/install-drivers-for-freescale-frdm-kl25z-board.html>`__.
