@@ -14,6 +14,7 @@ Contents:
    freescale
    instalation
    simulink
+   simple_tutorials
 
 Indices and tables
 ==================
