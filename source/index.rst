@@ -12,6 +12,7 @@ Contents:
    :maxdepth: 2
 
    freescale
+   car_guide
    instalation
    simulink
    simple_tutorials

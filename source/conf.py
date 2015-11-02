@@ -48,9 +48,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Freescale Cup Documentation'
-copyright = u'2015, Andrei Lascu, Giannis Evagorou, Anastasios Andronidis'
-author = u'Andrei Lascu, Giannis Evagorou, Anastasios Andronidis'
+project = u'Freescale Cup'
+copyright = u'2015, Anastasios Andronidis, Giannis Evagorou, Andrei Lascu'
+author = u'Anastasios Andronidis, Giannis Evagorou, Andrei Lascu'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -224,8 +224,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'FreescaleCupDocumentation.tex', u'Freescale Cup Documentation Documentation',
-   u'Andrei Lascu, Giannis Evagorou, Anastasios Andronidis', 'manual'),
+  (master_doc, 'FreescaleCupDocumentation.tex', u'Freescale Cup Documentation',
+   u'Anastasios Andronidis, Giannis Evagorou, Andrei Lascu', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
