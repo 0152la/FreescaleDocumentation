@@ -88,7 +88,7 @@ Install Matlab package for Freescale FRDM-KL25Z board
 4. From the **Select an action** list, select **Install from Internet** and click **Next**.
 5. In the **Support Package Installer** wizard, select **Freescale Kinetics Microcontrollers** and then the **FRDM-KL25Z** board.
 
-**HINT:** *If you see the package gray and you can not install it, that means that you didn't install Matlab Embedded Coder which can be found in the initial installation.*
+**HINT:** If you see the package gray and you can not install it, that means that you didn't install Matlab Embedded Coder which can be found in the initial installation.
 
 .. figure:: Pictures/04-3_support_package_installer.png
   :figclass: align-center
@@ -98,7 +98,7 @@ Install Matlab package for Freescale FRDM-KL25Z board
 
 6. At some point you are going to be asked to install **CMSIS Specification** software. Click on **download**, then create an **ARM** account and download the software.
 
-**IMPORTANT:** Use the version **4.3.0!**
+**IMPORTANT:** Use version **4.3.0!**
 
 .. figure:: Pictures/04-4_install_CMSIS.png
   :figclass: align-center
