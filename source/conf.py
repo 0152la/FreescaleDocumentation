@@ -24,7 +24,7 @@ import shlex
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
-#needs_sphinx = '1.0'
+needs_sphinx = '1.3'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -284,3 +284,15 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
+
+# -- Manually added options -----------------------------------------------
+
+# Automatically number stuff
+numfig = True
+
+# Set automatically numbering format
+numfig_format = {
+    'figure'     : 'Figure %s',
+    'table'      : 'Table %s',
+    'code-block' : 'Listing %s'
+}

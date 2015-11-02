@@ -55,12 +55,11 @@ Matlab and Simulink Installation
 18. Click Next for all the next questions.
 19. Now wait until everything is installed.
 20. After the installation is done, make sure that you have *Activate Matlab* check box checked and click next and just follow the instructions.
-21. Open Matlab to verify that everything is working properly (see Figure 1) and you are done! Don’t forget to delete the downloaded files and extracted folders to keep everything clean!
+21. Open Matlab to verify that everything is working properly (see :numref:`install_done`) and you are done! Don’t forget to delete the downloaded files and extracted folders to keep everything clean!
 
 .. figure:: Pictures/04-1_installation_done.png
   :figclass: align-center
-
-  Figure 1
+  :name: install_done
 
 Check that Simulink is installed if you already have Matlab
 -----------------------------------------------------------
