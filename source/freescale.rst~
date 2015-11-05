@@ -115,4 +115,3 @@ Describing any technical details of the boards, the servo or the motors is outsi
 
 1. `The KL25 Reference Manual <http://www.freescale.com/products/arm-processors/kinetis-cortex-m/l-series/kinetis-kl2x-48-mhz-usb-connectivity-ultra-low-power-mcus:KL2x?fpsp=1&tab=Documentation_Tab#>`_  
 2. `The Freescale Cup page <https://community.freescale.com/docs/DOC-1284>`_. Under the *Hardware Concepts* and *Embedded Systems Concepts* sections one can find technical descriptions and tutorials of the DC Motors, the Motor Driver Board and the Servo.
-
