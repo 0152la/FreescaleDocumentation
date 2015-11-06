@@ -1,7 +1,7 @@
 Installation Procedure for Freescale FRDM-KL25Z Board
 =====================================================
 
-This is a tutorial on how and what you will need to have in your computer to interact with Freescale’s FRDM-KL25Z Board. **Please read the Prerequisites section carefully before you start.** In general don’t be afraid on using **Google** if you encounter any problems.
+This is a tutorial on how and what you will need to have in your computer to interact with Freescale’s FRDM-KL25Z Board. **Please read the Prerequisites section carefully before you start.** In general don’t be afraid of using **Google** if you encounter any problems.
 
 Introduction
 ------------
