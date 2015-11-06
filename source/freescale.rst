@@ -13,10 +13,17 @@ Since the car must race on the track at all times, students should use a camera 
 The track
 ---------
 
-The track is made from 1/16 inch ABS Plastic with a background colour of white matte. The track is bounded with matte black stripes. Models of the track are illustrated in Figures 1-6.
+whole_track_middle
+
+The track is made from 1/16 inch ABS Plastic with a background colour of white matte. The track is bounded with matte black stripes. An example of the whole track is depicted in :numref:`whole_truck`. The main segments of the track are illustrated in :numref:`qtr_turn`-:numref:`hill_edge`.
+
+.. figure:: Pictures/whole_truck.jpg
+   :scale: 50 %
+   :name: whole_truck
 
 .. figure:: Pictures/02-QtrTurn_EdgeLine.jpg
    :scale: 50 %
+   :name: qtr_turn
 
    Qtr. Turn
 
@@ -42,8 +49,16 @@ The track is made from 1/16 inch ABS Plastic with a background colour of white m
 
 .. figure:: Pictures/02-Hill_EdgeLine.jpg
    :scale: 50 %
+   :name: hill_edge
 
    Hill
+
+Commonly, Freescale cups use another type of track with the black line in the middle (see :numref:`whole_truck_middle`).
+
+.. figure:: Pictures/whole_truck_middle.jpg
+   :scale: 50 %
+   :name: whole_truck_middle
+
 
 Rules
 -----

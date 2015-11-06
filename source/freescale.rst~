@@ -13,10 +13,17 @@ Since the car must race on the track at all times, students should use a camera 
 The track
 ---------
 
-The track is made from 1/16 inch ABS Plastic with a background colour of white matte. The track is bounded with matte black stripes. Models of the track are illustrated in Figures 1-6.
+whole_track_middle
+
+The track is made from 1/16 inch ABS Plastic with a background colour of white matte. The track is bounded with matte black stripes. An example of the whole track is depicted in :numref:`whole_truck`. The main segments of the track are illustrated in :numref:`qtr_turn`-:numref:`hill_edge`.
+
+.. figure:: Pictures/whole_truck.jpg
+   :scale: 50 %
+   :name: whole_truck
 
 .. figure:: Pictures/02-QtrTurn_EdgeLine.jpg
    :scale: 50 %
+   :name: qtr_turn
 
    Qtr. Turn
 
@@ -42,8 +49,16 @@ The track is made from 1/16 inch ABS Plastic with a background colour of white m
 
 .. figure:: Pictures/02-Hill_EdgeLine.jpg
    :scale: 50 %
+   :name: hill_edge
 
    Hill
+
+Commonly, Freescale cups use another type of track with the black line in the middle (see ).
+
+.. figure:: Pictures/whole_truck_middle.jpg
+   :scale: 50 %
+   :name: whole_truck_middle
+
 
 Rules
 -----
@@ -64,10 +79,10 @@ Some of the rules that apply for any region are:
 Please note that this is not a set of complete rules. You are strongly advised to read the `rules page <https://community.freescale.com/docs/DOC-93225>`_ as rules differ according to the region.
 
 The car
------
+-------
 
 This section describes basic parts of the car. Detailed instructions on how to build the car are provided later in this tutorial.
- 
+
 **Chassis**
 
 The chassis of the car is depicted in :numref:`car_chasis`. The wheels are mounted on the car. According to the rules, no modification of the chassis is permitted. During the car assembly, you will place the camera and the FRDM-KL25Z board on top of the chassis.
@@ -78,7 +93,7 @@ The chassis of the car is depicted in :numref:`car_chasis`. The wheels are mount
 
 **The Servo Motor**
 
-Servos are devices with an output shaft that are widely used in Robotics and *radio controlled devices*. By supplying to the servo a coded signal, the servo can be placed to different angular positions. Persisting the coded signal on the input line, the servo will retain the angular position of the shaft. Changing the coded signal causes the angular position of the shaft to be changed. 
+Servos are devices with an output shaft that are widely used in Robotics and *radio controlled devices*. By supplying to the servo a coded signal, the servo can be placed to different angular positions. Persisting the coded signal on the input line, the servo will retain the angular position of the shaft. Changing the coded signal causes the angular position of the shaft to be changed.
 
 .. figure:: Pictures/servomotor.JPG
 	:figclass: align-center
@@ -86,7 +101,7 @@ Servos are devices with an output shaft that are widely used in Robotics and *ra
 
 **Steering System**
 
-After assembling the servomotor and attaching it to the chassis, the steering system will look like :numref:`steering_system`. It consists of two control arms attached to a Futaba S3010 servomotor.  
+After assembling the servomotor and attaching it to the chassis, the steering system will look like :numref:`steering_system`. It consists of two control arms attached to a Futaba S3010 servomotor.
 
 .. figure:: Pictures/steering_system.JPG
 	:figclass: align-center
@@ -109,9 +124,10 @@ The board (see :numref:`board`) is attached between the two rear wheels of the c
 	:name: board
 
 Technical Specifications
------
+------------------------
 
 Describing any technical details of the boards, the servo or the motors is outside the scope of this tutorial. The interested reader is refereed to:
 
-1. `The KL25 Reference Manual <http://www.freescale.com/products/arm-processors/kinetis-cortex-m/l-series/kinetis-kl2x-48-mhz-usb-connectivity-ultra-low-power-mcus:KL2x?fpsp=1&tab=Documentation_Tab#>`_  
-2. `The Freescale Cup page <https://community.freescale.com/docs/DOC-1284>`_. Under the *Hardware Concepts* and *Embedded Systems Concepts* sections one can find technical descriptions and tutorials of the DC Motors, the Motor Driver Board and the Servo.
+1. `The KL25 Reference Manual <http://www.freescale.com/products/arm-processors/kinetis-cortex-m/l-series/kinetis-kl2x-48-mhz-usb-connectivity-ultra-low-power-mcus:KL2x?fpsp=1&tab=Documentation_Tab#>`_
+2. `The Freescale Cup page <https://community.freescale.com/docs/DOC-1284>`_ -- under the *Hardware Concepts* and *Embedded Systems Concepts* sections one can find technical descriptions and tutorials of the DC Motors, the Motor Driver Board and the Servo.
+
