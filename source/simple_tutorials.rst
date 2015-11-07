@@ -49,12 +49,13 @@ Playing with the RGB Led
 8. Connect the **Constant** block to the **R** input of **RGB LED** block.
 9. Copy the **Constant** block to your model and set the value to **0**. Then connect the **Constant** block to the **G** input of **RGB LED** block.
 10. Make one more copy the **Constant** block to your model and set the value to **0**. Then connect the **Constant** block to the **B** input of **RGB LED** block.
-11. You should have something like Figure 1. Now you are ready to upload your code to Freescale's board and see the RGB Led flash. In the next part we will do the needed configurations to make the uploading possible.
+11. You should have something like :numref:`fig:model`. Now you are ready to upload your code to Freescale's board and see the RGB Led flash. In the next part we will do the needed configurations to make the uploading possible.
 
 .. figure:: Pictures/06-5_model.png
   :figclass: align-center
+  :name: fig:model
 
-  Figure 1
+  RGB Led Flash
 
 Configure and Run the Model on Freescale FRDM-KL25Z Board
 ---------------------------------------------------------
@@ -81,23 +82,26 @@ In this part we are going to see 3 different examples with buttons. You can get 
 
 When you place Momentary Switch in Simulink, then you can choose which of the two buttons each block is going to refer to by double clicking on it.
 
-Figure 2 shows a very simple example that uses two buttons to control two different colours on the RGB Led.
+:numref:`fig:example_1` shows a very simple example that uses two buttons to control two different colours on the RGB Led.
 
 .. figure:: Pictures/06-8_example_1.png
   :figclass: align-center
+  :name: fig:example_1
 
-  Figure 2
+  Example 1
 
-On our next example in Figure 3, we use the same idea as Figure 2 but we increase the luminosity of the colours by adding a **Gain** block. When you place the **Gain** block in your canvas, double click on it and set the **Gain** property to **255** which is the maximum luminosity for your led.
+On our next example in :numref:`fig:example_3`, we use the same idea as :numref:`fig:example_2` but we increase the luminosity of the colours by adding a **Gain** block. When you place the **Gain** block in your canvas, double click on it and set the **Gain** property to **255** which is the maximum luminosity for your led.
 
 .. figure:: Pictures/06-8_example_2.png
   :figclass: align-center
+  :name: fig:example_2
 
-  Figure 3
+  Example 2
 
 In our last example we continue on the same logic as previously but we add a **Sum** block to add two different **Gain** blocks to give maximum luminosity only when both of the buttons are pressed. Of course you have to change the **Gain** property in both of your **Gain** blocks. In our example we used **100** for each one of them.
 
 .. figure:: Pictures/06-8_example_3.png
   :figclass: align-center
+  :name: fig:example_3
 
-  Figure 4
+  Example 3

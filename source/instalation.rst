@@ -61,6 +61,8 @@ Matlab and Simulink Installation
   :figclass: align-center
   :name: install_done
 
+  Matlab Workspace
+
 Check that Simulink is installed if you already have Matlab
 -----------------------------------------------------------
 
@@ -76,12 +78,13 @@ Install Matlab package for Freescale FRDM-KL25Z board
 -----------------------------------------------------
 
 1. Open Matlab.
-2. Select **Add-Ons** on the menu bar and click **Get Hardware Support Packages**. See Figure 2.
+2. Select **Add-Ons** on the menu bar and click **Get Hardware Support Packages**. See :numref:`fig:hardware_support_packages`.
 
 .. figure:: Pictures/04-2_get_hardware_support_packages.png
   :figclass: align-center
+  :name: fig:hardware_support_packages
 
-  Figure 2
+  Get Hardware Support Packages
 
 3. The **Support Package Installer** wizard appears.
 4. From the **Select an action** list, select **Install from Internet** and click **Next**.
@@ -92,7 +95,7 @@ Install Matlab package for Freescale FRDM-KL25Z board
 .. figure:: Pictures/04-3_support_package_installer.png
   :figclass: align-center
 
-  Figure 3
+  Support Package Installer
 
 
 6. At some point you are going to be asked to install **CMSIS Specification** software. Click on **download**, then create an **ARM** account and download the software.
@@ -102,12 +105,12 @@ Install Matlab package for Freescale FRDM-KL25Z board
 .. figure:: Pictures/04-4_install_CMSIS.png
   :figclass: align-center
 
-  Figure 4
+  Install CMSIS
 
 .. figure:: Pictures/04-5_download_CMSIS.png
   :figclass: align-center
 
-  Figure 5
+  Download CMSIS
 
 7. Extract the software.
 8. Click **Next** on the **CMSIS Specification** window and then you will be asked to **Specify the CMSIS installation folder**. Browse to the just extracted folder.
