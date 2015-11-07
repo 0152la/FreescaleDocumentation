@@ -26,7 +26,7 @@ Prerequisites
 Here is a list of items that you must make sure that exist before you attempt further installation. This is not an optional list and if something is missing you might have complications in the next steps.
 
 * You should use **Windows 7** for your installations. We found that **Windows 8** will not work.
-* You need a **Matlab and Simulink License** and a **MathWorks account** with those licenses active.
+* You need a **Matlab and Simulink License** and a **MathWorks account** with those licenses active. **For the people that join The Freescale Cup student competition, licenses are give by the organization**.
 * We cover instructions only for the **Freescale FRDM-KL25Z Board**.
 * We are using **Matlab Version 8.6** (R2015b) and **Simulink Version 8.6** (R2015b).
 
