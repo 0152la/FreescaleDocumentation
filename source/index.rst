@@ -16,6 +16,7 @@ Contents:
    instalation
    simulink
    simple_tutorials
+   movement_tutorials
 
 Indices and tables
 ==================
