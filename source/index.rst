@@ -17,10 +17,4 @@ Contents:
    simulink
    simple_tutorials
    movement_tutorials
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   sensors
