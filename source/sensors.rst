@@ -5,7 +5,7 @@ We look at how we can program in Simulink a bluetooth transmission device and li
 
 At the time of writing this document, none of the sensors presented here are given with the car; you will have to obtain them yourself. The main component required for this is a bluetooth transmitter that you will have to attach to the board yourself (you can see an example in :numref:`fig:bluetooth`.
 
-An option for a bluetooth transmitter is **ADD BT TX NAME** (which is available on `Amazon<ADD AMAZON LINK>`_. You will also need to download the code for the bluetooth transmitter and receiver Simulink blocks, available `here<ADD BLUETOOTH CODE LINK>`_. You will also find blocks for a variety of different sensors.
+An option for a bluetooth transmitter is the HC-05 (which is available on `Amazon <http://www.amazon.co.uk/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=hc-05>`_). You will also need to download the code for the bluetooth transmitter and receiver Simulink blocks, available `here <https://github.com/mattdouthwaite/HiPEDS-Sensors-Group>`_. You will also find blocks for a variety of different sensors.
 
 This guide assumes you have added the bluetooth transmitter to your board and have downloaded the required Simulink libraries.
 
@@ -65,4 +65,5 @@ You might wish to use a light sensor to mitigate poor lightning conditions in ce
 Links
 -----
 
-**ADD ALL LINKS FROM ABOVE**
+* HC-05 bluetooth modules available on Amazon - http://www.amazon.co.uk/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=hc-05
+* Repository containing Simulink libraries for bluetooth module and some sensors - https://github.com/mattdouthwaite/HiPEDS-Sensors-Group
