@@ -18,3 +18,4 @@ Contents:
    simple_tutorials
    movement_tutorials
    sensors
+   testing
