@@ -33,7 +33,11 @@ The first block (Accelerometer 1) retrieves the measurements from the car's acce
 
 Importantly, we feed the acceleration of the y axis to a *Discrete Time Intergrator*  (see :numref:`discrete_time_integrator`) that accumulates the input signal and makes an estimation of the car's speed. Obviously, this model works for setups where the car runs on a flat plane/straight line (since it *disregards* the acceleration values for axes x and z). Finally, we use a switch to turn-off the motors when the desired speed is reached. Naturally, as soon as the motors are turned off the car's speed decreases. In this fashion, the model can measure *both* the *deceleration* and the *acceleration* of the car.
 
-The final requirement is to estimate the elapsed time between the moment when the car had a speed of zero and when the car reached the desired speed. To calculate this interval we created a *counter block*.  The counter block consists of:
+.. figure:: Pictures/counter_block.PNG
+   :scale: 50 %
+   :name: counter_block
+
+The final requirement is to estimate the elapsed time between the moment when the car had a speed of zero and when the car reached the desired speed. To calculate this interval we created a *counter block*.  The counter block (depicted in :numref:`counter_block`) consists of:
 
 	1. **A clock**: Its output is set to 1 for the first half of the period and 0 for the second half of the period.
 	2. **A Unit Delay**: Its purpose is to store the current value of the sum.	
