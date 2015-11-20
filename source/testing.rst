@@ -49,3 +49,13 @@ To summarise, the aforementioned counter block estimates the following values:
 	2. Elapsed time between the moment when the car reached the desired speed and the moment when it stopped.
 
 These two values are used to estimate the acceleration and the deceleration of the car.
+
+Camera Measurements
+------------
+
+Finally to measure the car's performance you can measure the performance of each individual component of the car. In this section we will explain how to measure the performance of the car's camera. In particular we are going to measure the camera's aperture (i.e. how wide the camera is). There are two factors that affect the camera's aperture:
+
+	1. **Height factor**: (with a range from 6 t 20cm) . We used a lego constructed ladder to move the camera to different heights (see :numref:`discrete_time_integrator`). We've tested the camera's aperture for various heights between the range 6 - 20cm. The height of the ladder was manually changed with the a ruler to move the camera to the desired height. Clearly, as the height of the camera increases, its aperture also increases.  
+	2. **Camera angle**: We've tried a combination of different angles to measure the performance of the camera. Different angles correspond to different fields of vision. Generally, there is only need for four angles (0,30,60,90). All four angles were tested with different combinations of heights. 
+
+Admittedly, the aperture of the camera is directly proportional to the height and the angle of the camera. We measured the camera's aperture for different combinations of heights and angles to evaluate the camera's performance. By having the camera connected to a desktop pc and through the *Simulink* software you can carry out the following experiment: Take two pieces of lego (or any other small object), one with your right hand and one with your left hand and close your hands until the two pieces of lego are in the camera's field of vision.
