@@ -13,28 +13,28 @@ This mode enables the programmer to run the Simulink model on the car while it i
 Simulink Model
 --------------
 
-The Simulink model used to test the application is depicted in :numref:`test_simulation`. Its purpose is to measure the acceleration and the deceleration of the car.
+The Simulink model used to test the application is depicted in :numref:`test_simulation`. You can find the model :download:`here <./accelerationTestUnit.slx>`. Its purpose is to measure the acceleration and the deceleration of the car.
 
 .. figure:: Pictures/test_simulation.PNG
-   :scale: 50 %
+   :scale: 70 %
    :name: test_simulation
 
 The first block (Accelerometer 1) retrieves the measurements from the car's accelerometer. The measurements include acceleration values for the **x**, **y** and **z** axis. Due to the fact that these measurements are frequently noisy, we make use of constants (x_offset, y_offset, z_offset) to calibrate the accelerometer's values once the board is on the car. In particular, we subtract each offset from its corresponding original value retrieved from the accelerometer. For example we subtract the *y_offset* value from the acceleration obtained for axis y (i.e. acceleration(y)-y_offset). In the same way, we eliminate noise from the other two axes as well. This elimination is performed through the use of the three Matlab functions. The filtered accelerometer values are passed to the *y_acc* block that logs data to a file on your personal computer and creates plots with the three acceleraion values (see :numref:`plotting_block`). Data in the log files can be used for further analysis. 
 
 .. figure:: Pictures/plotting_block.PNG
-   :scale: 50 %
+   :scale: 70 %
    :name: plotting_block
 
 
 .. figure:: Pictures/discrete_time_integrator.PNG
-   :scale: 50 %
+   :scale: 70 %
    :name: discrete_time_integrator
 
 
 Importantly, we feed the acceleration of the y axis to a *Discrete Time Intergrator*  (see :numref:`discrete_time_integrator`) that accumulates the input signal and makes an estimation of the car's speed. Obviously, this model works for setups where the car runs on a flat plane/straight line (since it *disregards* the acceleration values for axes x and z). Finally, we use a switch to turn-off the motors when the desired speed is reached. Naturally, as soon as the motors are turned off the car's speed decreases. In this fashion, the model can measure *both* the *deceleration* and the *acceleration* of the car.
 
 .. figure:: Pictures/counter_block.PNG
-   :scale: 50 %
+   :scale: 70 %
    :name: counter_block
 
 The final requirement is to estimate the elapsed time between the moment when the car had a speed of zero and when the car reached the desired speed. To calculate this interval we created a *counter block*.  The counter block (depicted in :numref:`counter_block`) consists of:
