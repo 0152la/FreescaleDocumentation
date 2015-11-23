@@ -65,5 +65,5 @@ You might wish to use a light sensor to mitigate poor lightning conditions in ce
 Links
 -----
 
-* HC-05 bluetooth modules available on Amazon - http://www.amazon.co.uk/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=hc-05
-* Repository containing Simulink libraries for bluetooth module and some sensors - https://github.com/mattdouthwaite/HiPEDS-Sensors-Group
+* `HC-05 bluetooth modules available on Amazon <http://www.amazon.co.uk/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=hc-05>`_
+* `Repository containing Simulink libraries for bluetooth module and some sensors <https://github.com/mattdouthwaite/HiPEDS-Sensors-Group>`_
