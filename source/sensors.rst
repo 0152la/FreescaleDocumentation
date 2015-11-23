@@ -26,14 +26,14 @@ Transmitter
 
 This represents the hardware on the car itself. The main component should be the Bluetooth transmitter block, taking inputs from your sensors (the number of inputs is configurable). It is up to you to decide what to do with the data recorded by any sensors you will add. You should have some examples downloaded alonside the bluetooth Simulink libraries, but feel free to add your own examples for any sensors you would like to use. This code has to be uploaded to the car.
 
-**ADD IMAGES FOR EXAMPLE TX PROGRAM**
+.. ADD IMAGES FOR EXAMPLE TX PROGRAM
 
 Receiver
 ^^^^^^^^
 
 This is the code that your receiving device will be runnning. Generally, it should be just displaying the information received via the bluetooth connection from the sensors on the car. This program has to be uploaded to the device you want to use to display the information.
 
-**ADD IMAGES FOR EXAMPLE RX PROGRAM**
+.. ADD IMAGES FOR EXAMPLE RX PROGRAM
 
 Usage
 ^^^^^

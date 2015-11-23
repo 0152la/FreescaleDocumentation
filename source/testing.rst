@@ -51,7 +51,7 @@ To summarise, the aforementioned counter block estimates the following values:
 These two values are used to estimate the acceleration and the deceleration of the car.
 
 Camera Measurements
-------------
+-------------------
 
 Finally to measure the car's performance you can measure the performance of each individual component of the car. In this section we will explain how to measure the performance of the car's camera. In particular we are going to measure the camera's aperture (i.e. how wide the camera is). There are two factors that affect the camera's aperture:
 

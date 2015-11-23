@@ -1,5 +1,5 @@
-Freescale Cup
-=============
+Intro to the Freescale Cup
+==========================
 
 The Freescale Cup is a worldwide student competition, which enables students to learn about embedded systems and control.
 The objective of the competition is for students to learn how to assemble, program and race a car on a track.
@@ -8,8 +8,8 @@ The winner of the competition is the team with the fastest car.
 
 Students will build a motor control hardware by utilizing parts included in the Freescale entry kit.
 Through the use of Embedded software programming students will be able to steer and control their cars.
-Since the car must race on the track at all times, students should use a camera to detect and follow the guide line(s). 
-The cup is run at two levels, a student competition and a competition for university students. A teaser video from 
+Since the car must race on the track at all times, students should use a camera to detect and follow the guide line(s).
+The cup is run at two levels, a student competition and a competition for university students. A teaser video from
 the Malaysia Freescale cup 2015 can be found here:
 
 
@@ -20,7 +20,7 @@ the Malaysia Freescale cup 2015 can be found here:
 The track
 ---------
 
-The track is made from 1/16 inch ABS Plastic with a background colour of white matte. The track is bounded with matte black stripes. An example of the whole track is depicted in :numref:`whole_truck`. The main segments of the track are illustrated in :numref:`qtr_turn`-:numref:`hill_edge`. However, the organizers may decide to add more difficult segments such as a tunnels or bumps. 
+The track is made from 1/16 inch ABS Plastic with a background colour of white matte. The track is bounded with matte black stripes. An example of the whole track is depicted in :numref:`whole_truck`. The main segments of the track are illustrated in :numref:`qtr_turn`-:numref:`hill_edge`. However, the organizers may decide to add more difficult segments such as a tunnels or bumps.
 
 .. figure:: Pictures/whole_truck.jpg
    :scale: 50 %

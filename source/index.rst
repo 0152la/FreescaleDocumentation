@@ -6,10 +6,14 @@
 Freescale Cup Documentation
 =======================================================
 
-Contents:
+This is a tutorial on how to build, program, simulate and test your Freescale Cup car. It will guide you through all the needed steps to prepare for the competition, without requiring any prior knowledge.
+
+We follow a four-step approach, starting by giving instructions on how to build your car. Next, we proceed with the installation of Matlab and Simulink, guiding you through the whole process step-by-step. In addition, we provide tutorials for simple example programs (e.g. playing with the LED and buttons), followed by some more advanced ones (such as steering and moving). Finally, we include a guide on how to measure certain parameters of your car using a Simulink model.
+
+Have fun and good luck in the competition!
 
 .. toctree::
-   :maxdepth: 2
+   :hidden:
 
    freescale
    car_guide
